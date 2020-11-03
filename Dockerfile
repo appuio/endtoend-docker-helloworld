@@ -1,4 +1,4 @@
-FROM docker.io/centos/httpd-24-centos7:latest
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7:latest
 
 COPY src/ /tmp/src/
 
